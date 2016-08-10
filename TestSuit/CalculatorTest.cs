@@ -30,7 +30,7 @@ namespace TestSuit
         {
             CalculatorTestInit("","0");           
         }
-
+         //
         [TestMethod]
         public void InitTestMock1()
         {
