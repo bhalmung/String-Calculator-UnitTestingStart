@@ -26,13 +26,13 @@ namespace TestSuit
             ConsoleMoq.Verify(x => x.Write($"Result is : {Expected}"));
         }
         [TestMethod]
-        public void InitTestMock()
+        public void Calculate_EmptyInput_Returns0()
         {
             CalculatorTestInit("","0");           
         }
          //
         [TestMethod]
-        public void InitTestMock1()
+        public void Calculate_OneInput_ReturnsSum()
         {
             CalculatorTestInit("5", "5");
         }
